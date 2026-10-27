@@ -15,7 +15,7 @@ Serviço independente, consumido por API, que inspeciona textos vindos de usuár
 | Grupo | `PREENCHER` |
 | Integrantes e RM | `PREENCHER antes da entrega` |
 | Quadro Kanban/Trello | `PREENCHER com link compartilhável` |
-| Vídeo (não listado, até 5 min) | `PREENCHER com link após a publicação` |
+| Vídeo (não listado, até 5 min) | [Roteiro e checklist da apresentação](docs/APRESENTACAO.md) — `PREENCHER link` |
 | Status | Planejamento inicial |
 
 > **Pendência de rastreabilidade:** o documento oficial de User Stories citado no enunciado não foi incluído neste repositório. Os identificadores abaixo são internos e provisórios. Antes da entrega, o grupo deve substituir cada ID pelo código e título exatos do arquivo fornecido pela Intelliway, sem alterar o escopo selecionado.
@@ -31,9 +31,8 @@ Serviço independente, consumido por API, que inspeciona textos vindos de usuár
 - [7. Portal administrativo](#7-portal-administrativo)
 - [8. Riscos e governança](#8-riscos-e-governança)
 - [9. Próximas etapas](#9-próximas-etapas)
-- [10. Vídeo](#10-vídeo)
-- [11. Critérios de aceite da Sprint 1](#11-critérios-de-aceite-da-sprint-1)
-- [12. Referências](#12-referências)
+- [10. Critérios de aceite da Sprint 1](#10-critérios-de-aceite-da-sprint-1)
+- [11. Referências](#11-referências)
 
 ## 1. Problema e desafio
 
@@ -317,22 +316,7 @@ O Trello usará as colunas `Backlog`, `Refinado`, `Em andamento`, `Em revisão`,
 
 Matriz RACI, Definition of Done, marcos e backlog inicial: [docs/PLANEJAMENTO.md](docs/PLANEJAMENTO.md).
 
-## 10. Vídeo
-
-**Link do vídeo não listado:** `PREENCHER`
-
-Roteiro para até 5 minutos:
-
-1. **0:00–0:45:** problema, ataque direto/indireto e risco para agentes.
-2. **0:45–1:25:** personas, P0 e escolhas P1/P2.
-3. **1:25–2:15:** dataset PT-BR, fontes, licenças, hard negatives e splits.
-4. **2:15–3:25:** arquitetura, OCR, consumidor automatizado e RAG simulado.
-5. **3:25–4:20:** baselines, DeBERTa, métricas e decisões.
-6. **4:20–5:00:** portal, governança, roadmap e próximos passos.
-
-Narração deve ser humana. O vídeo será publicado como **não listado**, testado em janela anônima e terá o mesmo link no arquivo [ENTREGA.txt](ENTREGA.txt).
-
-## 11. Critérios de aceite da Sprint 1
+## 10. Critérios de aceite da Sprint 1
 
 - [x] Problema, ameaça, ativos, perfis e dificuldade do PT-BR explicados.
 - [ ] IDs oficiais das User Stories confrontados com o documento da Intelliway.
@@ -347,7 +331,7 @@ Narração deve ser humana. O vídeo será publicado como **não listado**, test
 - [ ] Vídeo humano de até 5 minutos publicado como não listado e linkado.
 - [ ] Repositório GitHub criado como privado e acesso concedido aos avaliadores.
 
-## 12. Referências
+## 11. Referências
 
 - [OWASP GenAI Security Project — Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/)
 - [Protect AI — DeBERTa v3 base prompt injection v2](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2)
